@@ -104,7 +104,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "Snackbar/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  spec.resources = "Snackbar/**/*.png"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
