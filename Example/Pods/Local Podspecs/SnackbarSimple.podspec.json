@@ -1,0 +1,22 @@
+{
+  "name": "SnackbarSimple",
+  "version": "0.1.0",
+  "summary": "A short description of SnackbarSimple.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/27037776/SnackbarSimple",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "27037776": "anjasdwi@bareksa.com"
+  },
+  "source": {
+    "git": "https://github.com/27037776/SnackbarSimple.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SnackbarSimple/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SnackbarSimple (0.1.0)
+
+DEPENDENCIES:
+  - SnackbarSimple (from `../`)
+
+EXTERNAL SOURCES:
+  SnackbarSimple:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnackbarSimple: 8d3f2d318fcd5f6c7f960f751dcc092172695080
+
+PODFILE CHECKSUM: 8c6ce71d93ca8d8f65ae6ba582ba52403d4f95a6
+
+COCOAPODS: 1.12.1
