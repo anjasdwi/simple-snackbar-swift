@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source_files = 'SnackbarSimple/Classes/**/*'
   s.swift_version = '5.7'
   s.platforms = {
-    "ios" : "12.0"
+    "ios": "12.0"
   }
   
   # s.resource_bundles = {

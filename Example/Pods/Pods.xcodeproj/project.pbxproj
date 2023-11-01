@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		02B3D22618312C49A3E0E6789D13D7B4 /* Pods-SnackbarSimple_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ED631DDD83BF42D02DE934332CFA25 /* Pods-SnackbarSimple_Tests-dummy.m */; };
 		32613253DE7D832C7F522B8919C7BCE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		672462A02AF2195000F56110 /* SnackbarSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6724629F2AF2195000F56110 /* SnackbarSimple.swift */; };
+		672462A62AF228EC00F56110 /* SnackbarSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672462A52AF228EC00F56110 /* SnackbarSimple.swift */; };
 		67DE2C69BF201ECF7236C97D0C7452C9 /* SnackbarSimple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC604A5541D4D9D7374099DB5D1ECEA2 /* SnackbarSimple-dummy.m */; };
 		6D7011C12F2D47057AA3EAEADA24CA37 /* Pods-SnackbarSimple_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C206F011CEB3983786480EE94F21B3 /* Pods-SnackbarSimple_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E27EB8203F0562B484AB0B7BB0915CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -48,7 +48,7 @@
 		42329A69D79E9481B5F2B5A276F6C384 /* SnackbarSimple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnackbarSimple.debug.xcconfig; sourceTree = "<group>"; };
 		4790C70E78AC92CF8AD71FD06FB56566 /* Pods-SnackbarSimple_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnackbarSimple_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5030963995B8BEAC48E40CBECFE20A1B /* SnackbarSimple-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnackbarSimple-Info.plist"; sourceTree = "<group>"; };
-		6724629F2AF2195000F56110 /* SnackbarSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarSimple.swift; sourceTree = "<group>"; };
+		672462A52AF228EC00F56110 /* SnackbarSimple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackbarSimple.swift; sourceTree = "<group>"; };
 		6F74006634BDD5DB4AEA83F05F774B6E /* Pods-SnackbarSimple_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnackbarSimple_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7CA56F6D0A89B27099A1D85475FF45A3 /* Pods-SnackbarSimple_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnackbarSimple_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 		4D364506EF308BCD3FE29F486F3E0248 /* SnackbarSimple */ = {
 			isa = PBXGroup;
 			children = (
-				6724629E2AF2193500F56110 /* Classes */,
+				672462A42AF228EC00F56110 /* Classes */,
 				2FA3FB215D176F0B0664E4E3C50D43F7 /* Pod */,
 				4175562F5B2B77FE54C84979E31C3555 /* Support Files */,
 			);
@@ -195,12 +195,13 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6724629E2AF2193500F56110 /* Classes */ = {
+		672462A42AF228EC00F56110 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6724629F2AF2195000F56110 /* SnackbarSimple.swift */,
+				672462A52AF228EC00F56110 /* SnackbarSimple.swift */,
 			);
-			path = Classes;
+			name = Classes;
+			path = SnackbarSimple/Classes;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -396,7 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672462A02AF2195000F56110 /* SnackbarSimple.swift in Sources */,
+				672462A62AF228EC00F56110 /* SnackbarSimple.swift in Sources */,
 				67DE2C69BF201ECF7236C97D0C7452C9 /* SnackbarSimple-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
